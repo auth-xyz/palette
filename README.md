@@ -11,7 +11,7 @@ A simple Python script for generating a color palette based on a given image/wal
 Installing palette.py using pip
 
 ```bash
-    pip install palettepy
+    pip install palette-gen
 ```
 
 
