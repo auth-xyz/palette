@@ -57,8 +57,8 @@ def display_palette(colors):
         )
 
     console.print(table)
-
-if __name__ == "__main__":
+    
+def main():
     # Try to use the wallpaper from .fehbg if no argument is provided
     if len(sys.argv) < 2:
         image_path = get_image_path_from_fehbg()
@@ -72,4 +72,7 @@ if __name__ == "__main__":
 
     colors = get_palette(image_path, num_colors)
     display_palette(colors)
+
+if __name__ == "__main__":
+    main()
 

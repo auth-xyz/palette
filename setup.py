@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="palettepy",
+    name="palette-gen",
     version="0.1.0",
-    author="Auth",
+    author="auth-xyz",
     author_email="smmc.auth@gmail.com",
     description="A simple tool to extract and display color palettes from images.",
     long_description=open("README.md").read(),
