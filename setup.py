@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="palette-gen",
-    version="0.1.0",
+    version="0.1.1",
     author="auth-xyz",
     author_email="smmc.auth@gmail.com",
     description="A simple tool to extract and display color palettes from images.",
